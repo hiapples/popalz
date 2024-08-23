@@ -4,19 +4,19 @@ FROM node:18
 # 設置工作目錄
 WORKDIR /app
 
-# 複製 package.json 和 yarn.lock 文件
-COPY package.json yarn.lock ./
+# 複製 package.json 和 package-lock.json 文件
+COPY package.json package-lock.json ./
 
 # 安裝應用依賴
-RUN yarn install
+RUN npm install
 
 # 複製應用代碼到容器中
 COPY . .
 
 # 構建 Vue.js 應用
-RUN yarn build
+RUN npm run build
 
-# 安裝並使用 Nginx 作為靜態文件服務器
+# 使用 Nginx 作為靜態文件服務器
 FROM nginx:alpine
 COPY --from=0 /app/dist /usr/share/nginx/html
 
