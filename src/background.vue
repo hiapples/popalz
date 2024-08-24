@@ -5,7 +5,7 @@
         const parallax = () => {
             const scrolled = window.scrollY;
             const section = document.querySelector('.section');
-            section.style.backgroundPositionY = `${scrolled * 0.35}px`;
+            section.style.backgroundPositionY = `${scrolled * 0.3}px`;
         };
 
         window.addEventListener('scroll', parallax);
