@@ -11,7 +11,7 @@
         <div class="row">
             <div class="col-sm-6 mb-5">
                 <div class="card ">
-                    <a href="https://talktalk-qyzh.onrender.com/" class="d-flex">
+                    <a href="https://talktalk-qyzh.onrender.com" class="d-flex">
                         <img src="/src/astronaut.png" class="card-img-top w-50 h-50 mx-auto mt-5" >
                     </a>
                     <div class="card-body">
@@ -23,7 +23,7 @@
             </div>
             <div class="col-sm-6">
                 <div class="card">
-                    <a href="https://foodmap-gjp1.onrender.com/" class="d-flex">
+                    <a href="https://foodmap-gjp1.onrender.com" class="d-flex">
                         <img src="/src/hamburger.png" class="card-img-top w-50 h-50 mx-auto mt-5" >
                     </a>
                     <div class="card-body">
