@@ -11,6 +11,7 @@
     import Footer from "./footer.vue" ;
     import Contact from "./contact.vue" ;
     import Back from "./back.vue" ;
+    import Experience from "./experience.vue" ;
 
 </script>
 <template>
@@ -22,6 +23,7 @@
                 <Background></Background>
                 <About></About>
                 <Projects></Projects>
+                <Experience></Experience>
                 <Background2></Background2>
                 <Contact></Contact>
                 <Back></Back>

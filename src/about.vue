@@ -12,10 +12,8 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">韋皓承</h5>
-                    <p class="card-text mt-3">國立東華大學資管系</p>
-                    <p class="card-text">2001/01/16</p>
-                    <p class="card-text">手機&ensp;:&ensp;0967123979</p>
-                    <p class="card-text">信箱&ensp;:&ensp;jhank4321@gmail.com</p>
+                    <p class="card-text">2001/01/16</p> 
+                    <p class="card-text mt-3">國立東華大學資訊管理系</p>
                 </div>
             </div>
         </div>

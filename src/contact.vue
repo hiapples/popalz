@@ -19,6 +19,14 @@
         <a href="https://www.facebook.com/profile.php?id=100003103171019"><img src="/src/photo/fb.png"  /></a>
         <a href="https://www.instagram.com/howard.2001?utm_source=qr"><img src="/src/photo/ig.png"  /></a>
     </div>
+    <div class="mb-5">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-text">手機&ensp;:&ensp;0967123979</p>
+                <p class="card-text">信箱&ensp;:&ensp;jhank4321@gmail.com</p>
+            </div>
+        </div>
+    </div>
 </template>
 
 <style scoped>
