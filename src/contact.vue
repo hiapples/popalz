@@ -15,9 +15,9 @@
         <div>Contacts</div>
     </div>
     <div class="d-flex justify-content-center mb-5">
-        <a href="https://github.com/hiapples"><img src="/src/github.png" /></a>
-        <a href="https://www.facebook.com/profile.php?id=100003103171019"><img src="/src/fb.png"  /></a>
-        <a href="https://www.instagram.com/howard.2001?utm_source=qr"><img src="/src/ig.png"  /></a>
+        <a href="https://github.com/hiapples"><img src="/src/photo/github.png" /></a>
+        <a href="https://www.facebook.com/profile.php?id=100003103171019"><img src="/src/photo/fb.png"  /></a>
+        <a href="https://www.instagram.com/howard.2001?utm_source=qr"><img src="/src/photo/ig.png"  /></a>
     </div>
 </template>
 

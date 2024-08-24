@@ -12,7 +12,7 @@
             <div class="col-sm-6 mb-5">
                 <div class="card ">
                     <a href="https://talktalk-qyzh.onrender.com" class="d-flex">
-                        <img src="/src/astronaut.png" class="card-img-top w-50 h-50 mx-auto mt-5" >
+                        <img src="/src/photo/astronaut.png" class="card-img-top w-50 h-50 mx-auto mt-5" >
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Astronaut.</h5>
@@ -24,7 +24,7 @@
             <div class="col-sm-6">
                 <div class="card">
                     <a href="https://foodmap-gjp1.onrender.com" class="d-flex">
-                        <img src="/src/hamburger.png" class="card-img-top w-50 h-50 mx-auto mt-5" >
+                        <img src="/src/photo/hamburger.png" class="card-img-top w-50 h-50 mx-auto mt-5" >
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">foodmap</h5>

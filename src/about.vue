@@ -19,13 +19,13 @@
         </div>
         <div class="row">
             <div class="col-sm-4 mt-4">
-                <img src="/src/image copy.png" >
+                <img src="/src/photo/image copy.png" >
             </div>
             <div class="col-sm-4 mt-4">
-                <img src="/src/image copy 3.png" >
+                <img src="/src/photo/image copy 3.png" >
             </div>
             <div class="col-sm-4 mt-4">
-                <img src="/src/image copy 2.png" >
+                <img src="/src/photo/image copy 2.png" >
             </div>
         </div>
         <div class="mt-5">

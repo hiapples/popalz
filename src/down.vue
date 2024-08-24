@@ -12,7 +12,7 @@
 </script>
 <template>
     <a href="" id="down"class="down d-flex mx-auto mt-5" @click.prevent="down">
-        <img src="/src/down.png">
+        <img src="/src/photo/down.png">
     </a>
 </template>
 
