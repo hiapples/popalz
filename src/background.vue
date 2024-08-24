@@ -33,7 +33,7 @@
     }
 
     .section {
-        background-image: url("background.jpg");
+        background-image: url("photo/background.jpg");
         width: 100%;
         height: 150vh;
         margin-top: 100px;

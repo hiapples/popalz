@@ -20,7 +20,7 @@ import { onMounted, onUnmounted } from 'vue';
 }
 
 .section {
-  background-image: url("background2.jpg");
+  background-image: url("photo/background2.jpg");
   width: 100%;
   height: 700px;
   margin-top: 100px;
