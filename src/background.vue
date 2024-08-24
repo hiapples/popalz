@@ -21,7 +21,7 @@
     .section{
         background-image: url("background.jpg");
         width: 100%;
-        height: 700px;
+        height: auto;
         margin-top: 100px;
         background-repeat: no-repeat;
         background-attachment:fixed;    
