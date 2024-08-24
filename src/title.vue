@@ -2,9 +2,12 @@
     import { ref } from "vue";
     import { onMounted,onUpdated,onUnmounted } from "vue";
     import 'bootstrap/dist/css/bootstrap.min.css'; // 引入 Bootstrap CSS
+    function reload(){
+        location.reload();
+    }
 </script>
 <template>
-    <div class="title">PoPalz.</div>
+    <div class="title" @click="reload();">PoPalz.</div>
 </template>
 
 <style scoped>
@@ -14,6 +17,7 @@
         margin-top: 100px;
         font-family: 'Matemasie';
         margin-left: 20px;
+        cursor: pointer;
     }
     @media(max-width: 576px) {
         .title{
