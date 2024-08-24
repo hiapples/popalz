@@ -15,7 +15,7 @@
         color: #fff;
         text-decoration: none;
         position: fixed;
-        bottom: 20px;
+        bottom: 25px;
         right: 20px;
         font-size: 26px;
     }
