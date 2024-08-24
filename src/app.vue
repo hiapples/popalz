@@ -10,6 +10,7 @@
     import Down from "./down.vue" ;
     import Footer from "./footer.vue" ;
     import Contact from "./contact.vue" ;
+    import Back from "./back.vue" ;
 
 </script>
 <template>
@@ -23,6 +24,7 @@
                 <Projects></Projects>
                 <Background2></Background2>
                 <Contact></Contact>
+                <Back></Back>
             </div>
         </div>
     </div>

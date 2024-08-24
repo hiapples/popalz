@@ -28,14 +28,14 @@
     .body {
         display: flex;
         justify-content: center;
-        height: 120vh;
+        height: 150vh;
         overflow: hidden; /* 防止溢出滾動條 */
     }
 
     .section {
         background-image: url("background.jpg");
         width: 100%;
-        height: 700px;
+        height: 150vh;
         margin-top: 100px;
         background-repeat: no-repeat;
         background-position: center center;

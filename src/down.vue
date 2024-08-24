@@ -5,7 +5,7 @@
 
     function down(){
         window.scrollBy({
-            top: 1000, 
+            top: 1200, 
             behavior: 'smooth'
         });
     }
