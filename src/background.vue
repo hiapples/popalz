@@ -1,7 +1,20 @@
 <script setup> 
     import { ref } from "vue";
     import { onMounted,onUpdated,onUnmounted } from "vue";
+    onMounted(() => {
+        const parallax = () => {
+            const scrolled = window.scrollY;
+            const section = document.querySelector('.section');
+            section.style.backgroundPositionY = `${scrolled * 0.35}px`;
+        };
 
+        window.addEventListener('scroll', parallax);
+        
+        // 清理事件監聽器
+        onUnmounted(() => {
+            window.removeEventListener('scroll', parallax);
+        });
+    });
 </script>
 <template>
     <div class="body">
@@ -12,20 +25,21 @@
 </template>
 
 <style scoped>
-    .body{
+    .body {
         display: flex;
         justify-content: center;
         height: 120vh;
+        overflow: hidden; /* 防止溢出滾動條 */
     }
 
-    .section{
+    .section {
         background-image: url("background.jpg");
         width: 100%;
-        height: auto;
+        height: 700px;
         margin-top: 100px;
         background-repeat: no-repeat;
-        background-attachment:fixed;    
         background-position: center center;
-        background-size: contain; 
+        background-size: cover;
+        position: relative; /* 使背景圖能夠根據視差效果變化 */
     }
 </style>
