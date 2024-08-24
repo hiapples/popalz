@@ -13,7 +13,9 @@
                 <div class="card-body">
                     <h5 class="card-title">韋皓承</h5>
                     <p class="card-text mt-3">國立東華大學資管系</p>
-                    <p class="card-text">對於網頁程式設計非常有熱誠，忠於解決問題所得到的成就感。</p>
+                    <p class="card-text">2001/01/16</p>
+                    <p class="card-text">手機&ensp;:&ensp;0967123979</p>
+                    <p class="card-text">信箱&ensp;:&ensp;jhank4321@gmail.com</p>
                 </div>
             </div>
         </div>
