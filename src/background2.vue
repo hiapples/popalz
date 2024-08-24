@@ -21,13 +21,13 @@
 
   .section{
     background-image: url("background2.jpg");
-    max-width: 100%;
+    width: 100%;
     height: 600px;
     margin-top: 100px;
     background-repeat: no-repeat;
     background-attachment:fixed;    
     background-position: center center;
-    background-size: cover;
+    background-size: contain; 
   }
   .image-container {
     position: relative;
