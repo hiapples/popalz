@@ -14,14 +14,15 @@
     <div class="contact mb-5">
         <div>Contacts</div>
     </div>
-    <div class="d-flex justify-content-center mb-5">
-        <a href="https://github.com/hiapples"><img src="/src/photo/github.png" /></a>
-        <a href="https://www.facebook.com/profile.php?id=100003103171019"><img src="/src/photo/fb.png"  /></a>
-        <a href="https://www.instagram.com/howard.2001?utm_source=qr"><img src="/src/photo/ig.png"  /></a>
-    </div>
+
     <div class="mb-5">
         <div class="card">
             <div class="card-body">
+                <div class="d-flex justify-content-center mb-5">
+                    <a href="https://github.com/hiapples"><img src="/src/photo/github.png" /></a>
+                    <a href="https://www.facebook.com/profile.php?id=100003103171019"><img src="/src/photo/fb.png"  /></a>
+                    <a href="https://www.instagram.com/howard.2001?utm_source=qr"><img src="/src/photo/ig.png"  /></a>
+                </div>
                 <p class="card-text">手機&ensp;:&ensp;0967123979</p>
                 <p class="card-text">信箱&ensp;:&ensp;jhank4321@gmail.com</p>
             </div>
