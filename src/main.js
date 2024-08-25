@@ -5,7 +5,6 @@ import {createApp} from "vue";
 import App from "./app.vue";
 import 'bootstrap/dist/css/bootstrap.min.css'; // 引入 Bootstrap CSS
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // 引入 Bootstrap JS
-import './registerServiceWorker'
 
 //建立vue app物件
 const app = createApp(App);
