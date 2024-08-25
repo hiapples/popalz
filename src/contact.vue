@@ -4,7 +4,7 @@
     import 'bootstrap/dist/css/bootstrap.min.css'; // 引入 Bootstrap CSS
 </script>
 <template>
-    <div class="mb-5">
+    <div class="mb-4">
         <div class="card">
             <div class="card-body">
                 <p class="card-text ">我希望能在資訊領域中持續成長，<br/>擴展我的技術知識和實踐經驗。<br/>我期望能夠參與更具挑戰性的專案，<br/>並與專業團隊合作，共同推進技術創新與應用發展。</p>
@@ -14,7 +14,6 @@
     <div class="contact mb-5">
         <div>Contacts</div>
     </div>
-
     <div class="mb-5">
         <div class="card">
             <div class="card-body">
