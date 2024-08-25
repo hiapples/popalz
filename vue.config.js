@@ -6,7 +6,7 @@ module.exports = {
   },
   pwa: {
     name: 'PoPalz',
-    themeColor: '#4DBA87',
+    themeColor: '#000000',
     msTileColor: '#000000',
     appleMobileWebAppCapable: 'yes',
     appleMobileWebAppStatusBarStyle: 'black',
