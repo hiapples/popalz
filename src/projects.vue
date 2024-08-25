@@ -37,7 +37,7 @@
         <div class="mt-5">
             <div class="card">
                 <div class="card-body">
-                    <p class="card-text">在求學期間，我自學了網頁設計，<br/>對前端、後端開發及資料庫管理充滿興趣。<br/>我熟悉HTML、CSS、JavaScript、jQuery、Bootstrap等前端技術，<br/>也學會了Flask和PHP等後端框架，<br/>能構建完整的Web應用程式。<br/>此外，我熟悉MongoDB和MySQL，<br/>能有效設計與操作資料庫。<br/>我成功整合這些技術，<br/>架設網站並打造功能完善的系統。</p>
+                    <p class="card-text">在求學期間，我自學了網頁設計，<br/>對前端、後端開發及資料庫管理充滿興趣。<br/>我熟悉HTML、CSS、JavaScript、jQuery、Bootstrap等前端技術，<br/>也掌握了Flask和PHP後端框架，<br/>能構建完整的Web應用。<br/>此外，我熟悉MongoDB和MySQL，<br/>能有效設計與操作資料庫。<br/>我將這些技術整合，<br/>成功架設了功能完善的網站與系統。</p>
                 </div>
             </div>
         </div>
