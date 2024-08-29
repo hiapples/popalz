@@ -105,7 +105,7 @@
         border-radius: 15px;
     }
     .modal-xl{
-        min-width: 80%;
+        min-width: 90%;
     }
     #morelogo{
         cursor: pointer;
