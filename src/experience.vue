@@ -51,7 +51,7 @@
 
     <!-- showModal -->
     <div class="modal fade" id="showModal" >
-        <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-dialog modal-xl modal-dialog-centered" >
             <div class="modal-content">
                 <div class="modal-body">
                     <img src="/src/photo/cup.jpg" class="imgcup"/>
@@ -110,5 +110,4 @@
     #morelogo{
         cursor: pointer;
     }
-
 </style>
