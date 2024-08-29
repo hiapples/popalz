@@ -1,6 +1,7 @@
 <script setup> 
     import { ref } from "vue";
     import { onMounted,onUpdated,onUnmounted } from "vue";
+    
 </script>
 <template>
     <div class="experience mb-5">
@@ -113,4 +114,5 @@
     .modal {
         backdrop-filter: blur(1px); /* Lighter blur effect */
     }
+
 </style>
