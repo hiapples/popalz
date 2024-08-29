@@ -22,8 +22,9 @@ import { onMounted, onUnmounted } from 'vue';
 .section {
   background-image: url("photo/background2.jpg");
   width: 100%;
-  height: 700px;
+  height: auto;
   margin-top: 100px;
+  margin-bottom: 100px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
