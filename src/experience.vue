@@ -110,4 +110,7 @@
     #morelogo{
         cursor: pointer;
     }
+    .modal {
+        backdrop-filter: blur(1px); /* Lighter blur effect */
+    }
 </style>
