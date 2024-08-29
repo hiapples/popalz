@@ -1,7 +1,7 @@
 <script setup> 
     import { ref } from "vue";
     import { onMounted,onUpdated,onUnmounted } from "vue";
-    import 'bootstrap/dist/css/bootstrap.min.css'; // 引入 Bootstrap CSS
+
     const fadeInElement = ref(null);
     const fadeInElement2 = ref(null);
     onMounted(() => {

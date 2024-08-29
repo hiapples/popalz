@@ -1,7 +1,6 @@
 <script setup> 
     import { ref } from "vue";
     import { onMounted,onUpdated,onUnmounted } from "vue";
-    import 'bootstrap/dist/css/bootstrap.min.css'; // 引入 Bootstrap CSS
 </script>
 <template>
     <div class="experience mb-5">
@@ -11,7 +10,7 @@
         <div class="col-sm-6 mt-4">
             <div class="card">
                 <div class="card-body">
-                    <img src="/src/photo/moremore.jpg"/>
+                    <img src="/src/photo/moremore.jpg" id="morelogo"class="imglogo" data-bs-toggle="modal" data-bs-target="#showModal"/>
                     <h5 class="card-title mt-3">默默飲料店 - 店長(全職)</h5>
                     <p class="card-text mt-3">2022/11 ~ 2023/6  (8個月)</p>
                     <p class="card-text mt-3">協助老闆盤點貨物，安排PT班表製作，帶領新人學習飲料調製及櫃檯點餐，店內整理。</p>
@@ -31,7 +30,7 @@
         <div class="col-sm-6 mt-4">
             <div class="card">
                 <div class="card-body">
-                    <img src="/src/photo/logo.png"/>
+                    <img src="/src/photo/logo.png" class="imglogo"/>
                     <h5 class="card-title mt-3">遠雄悅來大飯店 - 房務員(兼職)</h5>
                     <p class="card-text mt-3">2020/7 ~ 2020/12  (6個月)</p>
                     <p class="card-text mt-3">打掃飯店房間，鋪床、廁所整潔，協助旅客相關事項。</p>
@@ -45,6 +44,17 @@
                         <h5 class="card-title mt-3 text-center">心得 :</h5>
                         <p class="card-text text-center">在遠雄悅來大飯店擔任房務員的過程中，我學到了如何在工作中注重細節並提升效率。這份工作也讓我明白了與旅客溝通的重要性，並學會了如何應對突發狀況。這段經驗加強了我的責任感，同時也讓我更了解服務業中的專業要求。</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- showModal -->
+    <div class="modal fade" id="showModal" >
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="/src/photo/cup.jpg" class="imgcup"/>
                 </div>
             </div>
         </div>
@@ -83,10 +93,22 @@
     p {
         line-height: 2; 
     }
-    img {
+    .imglogo {
         max-width: 35%;
         height: auto;
         object-fit: cover;
         border-radius: 50%;
     }
+    .imgcup{
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+    .modal-xl{
+        min-width: 80%;
+    }
+    #morelogo{
+        cursor: pointer;
+    }
+
 </style>
