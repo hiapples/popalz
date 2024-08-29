@@ -71,6 +71,7 @@
         color: white;
         text-align: center;
         padding: 30px;
+        min-height: 30vh;
     }
     .card{
         background-color: rgb(23, 22, 22);
